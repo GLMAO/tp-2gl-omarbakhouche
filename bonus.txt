@@ -1,0 +1,12 @@
+SRP — Slight violation
+
+GestionnaireEmploiDuTemps does two jobs:
+
+Manage courses (ajouterCours, modifierCours)
+
+Manage observers (attach, detach, notifyObservers)
+
+This mixes business logic + notification system, which is technically two responsibilities.
+
+
+
